@@ -33,5 +33,26 @@ def trainRouteClient():
     return Response("Training successful!!")
 
 
+@app.route("/predict", methods=['POST'])
+@cross_origin()
+def predictRouteClient():
+    try:
+        if request.json is not None:
+            path = request.json['filepath']
+            pass
+
+        elif request.form is not None:
+            path = request.form['filepath']
+            pass
+
+    except ValueError:
+        return Response("Error Occurred! %s" % ValueError)
+    except KeyError:
+        return Response("Error Occurred! %s" % KeyError)
+    except Exception as e:
+        return Response("Error Occurred! %s" % e)
+
+
+port = int(os.getenv("PORT", 5001))
 if __name__ == '__main__':
-    pass
+    app.run(port=port, debug=True)
