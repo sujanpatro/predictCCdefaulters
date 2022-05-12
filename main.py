@@ -1,37 +1,16 @@
-import os
-from flask import Flask, request, render_template, Response
-from flask_cors import CORS, cross_origin
+# This is a sample Python script.
 
-os.putenv('LANG', 'en_us.UTF-8')
-os.putenv('LC_ALL', 'en_US.UTF-8')
-
-app = Flask(__name__)
-CORS(app)
+# Press Shift+F10 to execute it or replace it with your code.
+# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
 
-@app.route("/", methods=['GET'])
-@cross_origin()
-def home():
-    return render_template('index.html')
+def print_hi(name):
+    # Use a breakpoint in the code line below to debug your script.
+    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 
 
-@app.route("/train", methods=['POST'])
-@cross_origin()
-def trainRouteClient():
-    try:
-        if request.json['filepath'] is not None:
-            path = request.json['filepath']
-            pass
-
-    except ValueError:
-        return Response("Error Occurred! %s" % ValueError)
-    except KeyError:
-        return Response("Error Occurred! %s" % KeyError)
-    except Exception as e:
-        return Response("Error Occurred! %s" % e)
-
-    return Response("Training successful!!")
-
-
+# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    pass
+    print_hi('PyCharm')
+
+# See PyCharm help at https://www.jetbrains.com/help/pycharm/
