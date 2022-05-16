@@ -1,7 +1,9 @@
+import re
 from datetime import datetime
 import json
 import os
 import shutil
+import pandas as pd
 
 from application_logging.logger import App_logger
 
@@ -56,7 +58,7 @@ class Raw_Data_validation:
                 os.makedirs(path)
 
         except OSError as e:
-            with open ("Training_Logs/GeneralLog.txt", 'a+') as f:
+            with open("Training_Logs/GeneralLog.txt", 'a+') as f:
                 self.logger.log(f, "Error while creating directory %s:" % e)
                 f.close()
             raise e
@@ -69,6 +71,7 @@ class Raw_Data_validation:
                 with open('Training_Logs/GeneralLog.txt', 'a+') as f:
                     self.logger.log(f, "GoodRaw directory deleted successfully")
                     f.close()
+
         except OSError as e:
             with open('Training_Logs/GeneralLog.txt', 'a+') as f:
                 self.logger.log(f, "Error while deleting GoodRaw directory: %s" % e)
@@ -83,6 +86,7 @@ class Raw_Data_validation:
                 with open('Training_Logs/GeneralLog.txt', 'a+') as f:
                     self.logger.log(f, "BadRaw directory deleted successfully")
                     f.close()
+
         except OSError as e:
             with open('Training_Logs/GeneralLog.txt', 'a+') as f:
                 self.logger.log(f, "Error while deleting BadRaw directory: %s" % e)
@@ -120,3 +124,99 @@ class Raw_Data_validation:
                 f.close()
             raise e
 
+    def validationFileNameRaw(self, regex, LengthOfDateStampInFile, LengthOfTimeStampInFile):
+        self.deleteExistingBadDataTrainingFolder()
+        self.deleteExistingGoodDataTrainingFolder()
+
+        self.createDirectoryForGoodBadRawData()
+
+        onlyfiles = [f for f in os.listdir(self.Batch_directory)]
+
+        try:
+            f = open("Training_Logs/nameValidationLog.txt", "a+")
+            for filename in onlyfiles:
+                if re.match(regex, filename):
+                    splitAtDot = re.split('.csv', filename)
+                    splitAtDot = re.split('_', splitAtDot[0])
+
+                    if len(splitAtDot[1]) == LengthOfDateStampInFile:
+                        if len(splitAtDot[2]) == LengthOfTimeStampInFile:
+                            shutil.copy("Training_Batch_Files/" + filename, "Training_Raw_files_validated/Good_Raw")
+                            self.logger.log(f, "Valid File name! File copied to validated -> GoodRaw folder :: filename: %s" % filename)
+
+                        else:
+                            shutil.copy("Training_Batch_Files/" + filename, "Training_Raw_files_validated/Bad_Raw")
+                            self.logger.log(f, "Invalid File name! File copied to validated -> BadRaw folder :: filename: %s" % filename)
+
+                    else:
+                        shutil.copy("Training_Batch_Files/" + filename, "Training_Raw_files_validated/Bad_Raw")
+                        self.logger.log(f, "Invalid File name! File copied to validated -> BadRaw folder :: filename: %s" % filename)
+
+                else:
+                    shutil.copy("Training_Batch_Files/" + filename, "Training_Raw_files_validated/Bad_Raw")
+                    self.logger.log(f, "Invalid File name! File copied to validated -> BadRaw folder :: filename: %s" % filename)
+
+        except Exception as e:
+            with open("Training_Logs/nameValidationLog.txt", 'a+') as f:
+                self.logger.log(f, "Error occurred while validating filename %s" % e)
+                f.close()
+            raise e
+
+        finally:
+            f.close()
+
+    def validateColumnLength(self, NumberOfColumns):
+        try:
+            f = open("Training_Logs/columnsValidationLog.txt", 'a+')
+            self.logger.log(f, "Column length validation started")
+            for file in os.listdir("Training_Raw_files_validated/Good_Raw"):
+                df = pd.read_csv("Training_Raw_files_validated/Good_Raw/" + file)
+                if df.shape[1] != NumberOfColumns:
+                    shutil.move("Training_Raw_files_validated/Good_Raw/" + file, "Training_Raw_files_validated/Bad_Raw/")
+                    self.logger.log(f, "Invalid Columns Length for the file!! File moved to Bad Raw Folder :: %s" % file)
+            self.logger.log(f, "Column length validation completed")
+
+        except OSError as e:
+            with open("Training_Logs/columnValidationLog.txt", 'a+') as f:
+                self.logger.log(f, "Error Occurred while moving files %s" % e)
+                f.close()
+            raise e
+        except Exception as e:
+            with open("Training_Logs/columnValidationLog.txt", 'a+') as f:
+                self.logger.log(f, "Error Occurred :: %s" % e)
+                f.close()
+            raise e
+
+        finally:
+            f.close()
+
+    def validateMissingValuesInWholeColumn(self):
+        try:
+            f = open("Training_Logs/missingValuesInColumn.txt", 'a+')
+            self.logger.log(f, "Missing Values Validation Started!!")
+
+            for file in os.listdir("Training_Raw_files_validated/Good_Raw/"):
+                df = pd.read_csv("Training_Raw_files_validated/Good_Raw/" + file)
+                found = False
+                for columns in df:
+                    if len(df[columns]) - df[columns].count() == len(df[columns]):
+                        found = True
+                        shutil.move("Training_Raw_files_validated/Good_Raw/" + file, "Training_Raw_files_validated/BAD_Raw/")
+                        self.logger.log(f, "Invalid Column for the file!! File moved to Bad Raw folder :: %s" %file)
+                        break
+                if not found:
+                    df.to_csv("Training_Raw_files_validated/Good_Raw/" + file, index=None, header=True)
+
+        except OSError as e:
+            with open("Training_Logs/missingValuesInColumns.txt", 'a+') as f:
+                self.logger.log(f, "Error occurred while moving the file :: %s" % e)
+                f.close()
+            raise e
+        except Exception as e:
+            with open("Training_Logs/columnValidationLog.txt", 'a+') as f:
+                self.logger.log(f, "Error Occurred :: %s" % e)
+                f.close()
+            raise e
+
+        finally:
+            f.close()
