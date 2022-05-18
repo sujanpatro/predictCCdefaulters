@@ -48,7 +48,7 @@ class dBOperation:
                     try:
                         conn.execute('ALTER TABLE Good_Raw_Data ADD COLUMN "{column_name}" {dataType}'.format(column_name=key, dataType=type))
                     except:
-                        conn.execute(f'CREATE TABLE Good_Raw_Data ({column_name} {dataType})'.format(column_name=key, dataType=type))
+                        conn.execute('CREATE TABLE Good_Raw_Data ({column_name} {dataType})'.format(column_name=key, dataType=type))
 
                 conn.close()
                 file = open("Training_Logs/DbTableCreateLog.txt", 'a+')
