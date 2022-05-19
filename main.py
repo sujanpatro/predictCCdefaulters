@@ -2,6 +2,8 @@ import os
 from flask import Flask, request, render_template, Response
 from flask_cors import CORS, cross_origin
 
+from training_Validation_Insertion import train_validation
+
 os.putenv('LANG', 'en_us.UTF-8')
 os.putenv('LC_ALL', 'en_US.UTF-8')
 
@@ -21,6 +23,8 @@ def trainRouteClient():
     try:
         if request.json['filepath'] is not None:
             path = request.json['filepath']
+            train_valObj = train_validation(path)
+            train_valObj.train_validation()
             pass
 
     except ValueError:
