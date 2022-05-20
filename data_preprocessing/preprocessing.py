@@ -143,5 +143,5 @@ class Preprocessor:
 
         except Exception as e:
             self.logger_object.log(self.file_object,
-                                   'Exception occured in handle_imbalanced_dataset method of the Preprocessor class. Exited method %s' % e))
+                                   'Exception occurred in handle_imbalanced_dataset method of the Preprocessor class. Exited method %s' % e))
             raise e
