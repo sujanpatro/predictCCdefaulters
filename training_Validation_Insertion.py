@@ -4,6 +4,7 @@ from DataTypeValidation_Insertion_Training.DataTypeValidation import dBOperation
 from application_logging import logger
 import os
 
+
 class train_validation:
     def __init__(self, path):
         self.raw_data = Raw_Data_validation(path)
