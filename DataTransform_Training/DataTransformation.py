@@ -1,12 +1,12 @@
 import os
 import pandas as pd
-from application_logging.logger import App_logger
+from application_logging.logger import App_Logger
 
 
 class dataTransform:
     def __int__(self):
         self.goodDataPath = "Training_Raw_files_validated/Good_Raw"
-        self.logger = App_logger()
+        self.logger = App_Logger()
 
     def replaceMissingWithNULL(self):
         f = open("Training_Logs/dataTransformLog.txt", 'a+')

@@ -12,7 +12,7 @@ class train_validation:
         self.dBOperation = dBOperation()
         self.cwd = os.getcwd()
         self.file_object = open(self.cwd + 'Training_Main_Log.txt', 'a+')
-        self.log_writer = logger.App_logger()
+        self.log_writer = logger.App_Logger()
 
     def train_validation(self):
         try:

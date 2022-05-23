@@ -40,7 +40,6 @@ class KMeansClustering:
         self.data = data
         try:
             self.kmeans = KMeans(n_clusters=number_of_clusters, init='k-means++', random_state=42)
-            # self.data = self.data[~self.data.isin([np.nan, np.inf, -np.inf]).any(1)]
             self.y_kmeans = self.kmeans.fit_predict(data)  # divide data into clusters
 
             self.file_op = file_methods.File_Operation(self.file_object, self.logger_object)
@@ -48,13 +47,12 @@ class KMeansClustering:
             # passing 'Model' as the functions need three parameters
 
             self.data['Cluster'] = self.y_kmeans  # create a new column in dataset for storing the cluster information
-            self.logger_object.log(self.file_object, 'succesfully created ' + str(
-                self.kn.knee) + 'clusters. Exited the create_clusters method of the KMeansClustering class')
+            self.logger_object.log(self.file_object, 'successfully created ' + str(self.kn.knee) +
+                                   'clusters. Exited the create_clusters method of the KMeansClustering class')
             return self.data
         except Exception as e:
             self.logger_object.log(self.file_object,
-                                   'Exception occured in create_clusters method of the KMeansClustering class. Exception message:  ' + str(
-                                       e))
+                                   'Exception occurred in create_clusters method of the KMeansClustering class. %s' % e)
             self.logger_object.log(self.file_object,
                                    'Fitting the data to clusters failed. Exited the create_clusters method of the KMeansClustering class')
-            raise Exception()
+            raise e

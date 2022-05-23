@@ -1,7 +1,7 @@
 from datetime import datetime
 
 
-class App_logger:
+class App_Logger:
     def __init__(self):
         pass
 

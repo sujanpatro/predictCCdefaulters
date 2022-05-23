@@ -5,14 +5,14 @@ import os
 import shutil
 import pandas as pd
 
-from application_logging.logger import App_logger
+from application_logging.logger import App_Logger
 
 
 class Raw_Data_validation:
     def __init__(self, path):
         self.Batch_directory = path
         self.schema_path = 'schema_training.json'
-        self.logger = App_logger()
+        self.logger = App_Logger()
 
     def ValuesFromSchema(self):
         try:

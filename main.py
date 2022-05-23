@@ -2,6 +2,7 @@ import os
 from flask import Flask, request, render_template, Response
 from flask_cors import CORS, cross_origin
 
+from trainingModel import trainModel
 from training_Validation_Insertion import train_validation
 
 os.putenv('LANG', 'en_us.UTF-8')
@@ -25,7 +26,9 @@ def trainRouteClient():
             path = request.json['filepath']
             train_valObj = train_validation(path)
             train_valObj.train_validation()
-            pass
+
+            trainModelObj = trainModel()
+            trainModelObj.trainingModel()
 
     except ValueError:
         return Response("Error Occurred! %s" % ValueError)

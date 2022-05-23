@@ -1,6 +1,6 @@
 import csv
 import shutil
-from application_logging.logger import App_logger
+from application_logging.logger import App_Logger
 import sqlite3
 import os
 
@@ -10,7 +10,7 @@ class dBOperation:
         self.path = "Training_Database/"
         self.badFilePath = "Training_Raw_files_validated/Bad_Raw"
         self.goodFilePath = "Training_Raw_files_validated/Good_Raw"
-        self.logger = App_logger()
+        self.logger = App_Logger()
 
     def dataBaseConnection(self, DatabaseName):
         try:

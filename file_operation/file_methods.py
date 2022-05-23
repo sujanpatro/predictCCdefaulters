@@ -55,7 +55,7 @@ class File_Operation:
             self.list_of_files = os.listdir(self.folder_name)
             for self.file in self.list_of_files:
                 try:
-                    if (self.file.index(str(self.cluster_number)) != -1):
+                    if self.file.index(str(self.cluster_number)) != -1:
                         self.model_name = self.file
                 except:
                     continue
