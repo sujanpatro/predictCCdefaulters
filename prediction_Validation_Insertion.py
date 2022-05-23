@@ -12,7 +12,7 @@ class pred_validation:
         self.file_object = open("Prediction_Logs/Prediction_Log.txt", 'a+')
         self.log_writer = logger.App_Logger()
 
-    def train_validation(self):
+    def prediction_validation(self):
         try:
             self.log_writer.log(self.file_object, 'Start of Validation on files for Prediction')
             LengthOfDateStampInFile, LengthOfTimeStampInFile, column_names, noofcolumns = self.raw_data.ValuesFromSchema()

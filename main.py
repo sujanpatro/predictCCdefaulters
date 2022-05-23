@@ -1,7 +1,8 @@
 import os
 from flask import Flask, request, render_template, Response
 from flask_cors import CORS, cross_origin
-
+from predictFromModel import prediction
+from prediction_Validation_Insertion import pred_validation
 from trainingModel import trainModel
 from training_Validation_Insertion import train_validation
 
@@ -46,11 +47,15 @@ def predictRouteClient():
     try:
         if request.json is not None:
             path = request.json['filepath']
-            pass
 
         elif request.form is not None:
             path = request.form['filepath']
-            pass
+
+        pred_val = pred_validation(path)
+        pred_val.prediction_validation()
+        pred = prediction(path)
+        path = pred.predictionFromModel()
+        return Response("Prediction File created at %s" % path)
 
     except ValueError:
         return Response("Error Occurred! %s" % ValueError)
