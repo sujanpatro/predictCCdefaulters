@@ -1,3 +1,4 @@
+gunicorn
 Flask==1.1.1
 Flask_Cors==3.0.8
 imbalanced_learn==0.6.1
@@ -5,7 +6,7 @@ imblearn==0.0
 kneed==0.5.1
 matplotlib==3.1.2
 numpy==1.21.5
-
+pandas==0.25.3
 scikit_learn==1.1.1
 sklearn_pandas==1.8.0
 xgboost==1.6.1
