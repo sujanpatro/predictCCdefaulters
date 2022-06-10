@@ -43,7 +43,7 @@ regexp==0.1
 requests==2.27.1
 scikit-learn==0.22.1
 scipy==1.4.1
-sip==4.19.13
+sip
 six==1.14.0
 sklearn==0.0
 sklearn-pandas==1.8.0
