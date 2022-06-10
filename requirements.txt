@@ -25,9 +25,7 @@ kiwisolver==1.1.0
 kneed==0.5.1
 MarkupSafe
 matplotlib==3.1.2
-mkl-fft
-mkl-random
-mkl-service==2.4.0
+
 more-itertools==8.1.0
 munkres==1.1.4
 numpy
