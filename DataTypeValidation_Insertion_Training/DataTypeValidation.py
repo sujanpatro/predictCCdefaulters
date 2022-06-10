@@ -38,7 +38,7 @@ class dBOperation:
                 file.close()
 
                 file = open("Training_Logs/DataBaseConnectionLog.txt", 'a+')
-                self.logger.log(file, "Closed %s databse successfully" % DatabaseName)
+                self.logger.log(file, "Closed %s database successfully" % DatabaseName)
                 file.close()
 
             else:
@@ -79,7 +79,7 @@ class dBOperation:
             try:
                 with open(goodFilePath + '/' + file) as f:
                     next(f)
-                    reader = csv.reader(f, delimeter="\n")
+                    reader = csv.reader(f, delimiter="\n")
                     for line in enumerate(reader):
                         for list_ in line[1]:
                             try:
@@ -118,7 +118,7 @@ class dBOperation:
             if not os.path.isdir(self.fileFromDb):
                 os.makedirs(self.fileFromDb)
 
-            csvFile = csv.writer(open(self.fileFromDb + self.fileName, 'w', newline=''), delimeter=',', lineterminator='\r\n', quoting=csv.QUOTE_ALL, escapechar='\\')
+            csvFile = csv.writer(open(self.fileFromDb + self.fileName, 'w', newline=''), delimiter=',', lineterminator='\r\n', quoting=csv.QUOTE_ALL, escapechar='\\')
             csvFile.writerow(headers)
             csvFile.writerows(results)
 

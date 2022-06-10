@@ -46,16 +46,28 @@ def trainRouteClient():
 def predictRouteClient():
     try:
         if request.json is not None:
+            # print(1)
+            print(request.json())
             path = request.json['filepath']
+            pred_val = pred_validation(path)
+            pred_val.prediction_validation()
+            pred = prediction(path)
+            path = pred.predictionFromModel()
+            return Response("Prediction File created at %s" % path)
 
         elif request.form is not None:
+            print(request.form['filepath'])
             path = request.form['filepath']
-
-        pred_val = pred_validation(path)
-        pred_val.prediction_validation()
-        pred = prediction(path)
-        path = pred.predictionFromModel()
-        return Response("Prediction File created at %s" % path)
+            print(1)
+            pred_val = pred_validation(path)
+            # print(3)
+            pred_val.prediction_validation()
+            # print(2)
+            pred = prediction(path)
+            print(1)
+            path = pred.predictionFromModel()
+            print(2)
+            return Response("Prediction File created at %s" % path)
 
     except ValueError:
         return Response("Error Occurred! %s" % ValueError)

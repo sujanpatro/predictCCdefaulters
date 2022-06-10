@@ -16,8 +16,9 @@ class pred_validation:
         try:
             self.log_writer.log(self.file_object, 'Start of Validation on files for Prediction')
             LengthOfDateStampInFile, LengthOfTimeStampInFile, column_names, noofcolumns = self.raw_data.ValuesFromSchema()
+            # print(4)
             regex = self.raw_data.manualRegexCreation()
-
+            # print(5)
             self.raw_data.validationFileNameRaw(regex, LengthOfDateStampInFile, LengthOfTimeStampInFile)
             self.raw_data.validateColumnLength(noofcolumns)
             self.raw_data.validateMissingValuesInWholeColumn()

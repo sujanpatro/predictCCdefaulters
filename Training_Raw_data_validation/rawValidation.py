@@ -154,15 +154,13 @@ class Raw_Data_validation:
                 else:
                     shutil.copy("Training_Batch_Files/" + filename, "Training_Raw_files_validated/Bad_Raw")
                     self.logger.log(f, "Invalid File name! File copied to validated -> BadRaw folder :: filename: %s" % filename)
+            f.close()
 
         except Exception as e:
             with open("Training_Logs/nameValidationLog.txt", 'a+') as f:
                 self.logger.log(f, "Error occurred while validating filename %s" % e)
                 f.close()
             raise e
-
-        finally:
-            f.close()
 
     def validateColumnLength(self, NumberOfColumns):
         try:
@@ -205,6 +203,7 @@ class Raw_Data_validation:
                         break
                 if not found:
                     df.to_csv("Training_Raw_files_validated/Good_Raw/" + file, index=None, header=True)
+            f.close()
 
         except OSError as e:
             with open("Training_Logs/missingValuesInColumns.txt", 'a+') as f:
@@ -216,6 +215,3 @@ class Raw_Data_validation:
                 self.logger.log(f, "Error Occurred :: %s" % e)
                 f.close()
             raise e
-
-        finally:
-            f.close()

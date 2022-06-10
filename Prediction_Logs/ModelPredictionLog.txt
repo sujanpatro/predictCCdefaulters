@@ -1,0 +1,196 @@
+2022-05-24/15:20:55		Start of Prediction
+2022-05-24/15:20:55		Enter the get_data method of the Data_Getter class
+2022-05-24/15:20:55		Data loaded successfully. Exited the get_data method of the Data_Getter class
+2022-05-24/15:20:55		Entered the is_null_present method of the Preprocessor class
+2022-05-24/15:20:55		Finding missing values is a success. Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-05-24/15:20:55		Entered the scale_numerical_columns method of the Preprocessor class
+2022-05-24/15:20:55		Exception occured in scale_numerical_columns method of the Preprocessor class. Exited method at least one array or dtype is required
+2022-05-24/15:20:55		Error occurred while running prediction!! Error:: at least one array or dtype is required
+2022-05-24/15:21:58		Start of Prediction
+2022-05-24/15:21:58		Enter the get_data method of the Data_Getter class
+2022-05-24/15:21:58		Data loaded successfully. Exited the get_data method of the Data_Getter class
+2022-05-24/15:21:58		Entered the is_null_present method of the Preprocessor class
+2022-05-24/15:21:58		Finding missing values is a success. Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-05-24/15:21:58		Entered the scale_numerical_columns method of the Preprocessor class
+2022-05-24/15:21:58		Exception occured in scale_numerical_columns method of the Preprocessor class. Exited method at least one array or dtype is required
+2022-05-24/15:21:58		Error occurred while running prediction!! Error:: at least one array or dtype is required
+2022-05-24/15:23:01		Start of Prediction
+2022-05-24/15:23:01		Enter the get_data method of the Data_Getter class
+2022-05-24/15:23:01		Data loaded successfully. Exited the get_data method of the Data_Getter class
+2022-05-24/15:23:01		Entered the is_null_present method of the Preprocessor class
+2022-05-24/15:23:01		Finding missing values is a success. Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-05-24/15:23:01		Entered the scale_numerical_columns method of the Preprocessor class
+2022-05-24/15:23:01		Exception occured in scale_numerical_columns method of the Preprocessor class. Exited method at least one array or dtype is required
+2022-05-24/15:23:01		Error occurred while running prediction!! Error:: at least one array or dtype is required
+2022-05-24/15:24:04		Start of Prediction
+2022-05-24/15:24:04		Enter the get_data method of the Data_Getter class
+2022-05-24/15:24:04		Data loaded successfully. Exited the get_data method of the Data_Getter class
+2022-05-24/15:24:04		Entered the is_null_present method of the Preprocessor class
+2022-05-24/15:24:04		Finding missing values is a success. Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-05-24/15:24:04		Entered the scale_numerical_columns method of the Preprocessor class
+2022-05-24/15:24:04		Exception occured in scale_numerical_columns method of the Preprocessor class. Exited method at least one array or dtype is required
+2022-05-24/15:24:04		Error occurred while running prediction!! Error:: at least one array or dtype is required
+2022-05-24/15:24:46		Start of Prediction
+2022-05-24/15:24:46		Enter the get_data method of the Data_Getter class
+2022-05-24/15:24:46		Data loaded successfully. Exited the get_data method of the Data_Getter class
+2022-05-24/15:24:46		Entered the is_null_present method of the Preprocessor class
+2022-05-24/15:24:46		Finding missing values is a success. Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-05-24/15:24:46		Entered the scale_numerical_columns method of the Preprocessor class
+2022-05-24/15:24:46		Exception occured in scale_numerical_columns method of the Preprocessor class. Exited method at least one array or dtype is required
+2022-05-24/15:24:46		Error occurred while running prediction!! Error:: at least one array or dtype is required
+2022-05-24/15:29:04		Start of Prediction
+2022-05-24/15:29:04		Enter the get_data method of the Data_Getter class
+2022-05-24/15:29:04		Data loaded successfully. Exited the get_data method of the Data_Getter class
+2022-05-24/15:29:04		Entered the is_null_present method of the Preprocessor class
+2022-05-24/15:29:04		Finding missing values is a success. Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-05-24/15:29:04		Entered the scale_numerical_columns method of the Preprocessor class
+2022-05-24/15:29:04		Exception occured in scale_numerical_columns method of the Preprocessor class. Exited method at least one array or dtype is required
+2022-05-24/15:29:04		Error occurred while running prediction!! Error:: at least one array or dtype is required
+2022-05-24/15:30:10		Start of Prediction
+2022-05-24/15:30:10		Enter the get_data method of the Data_Getter class
+2022-05-24/15:30:10		Data loaded successfully. Exited the get_data method of the Data_Getter class
+2022-05-24/15:30:10		Entered the is_null_present method of the Preprocessor class
+2022-05-24/15:30:10		Finding missing values is a success. Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-05-24/15:30:10		Entered the scale_numerical_columns method of the Preprocessor class
+2022-05-24/15:30:10		Exception occured in scale_numerical_columns method of the Preprocessor class. Exited method at least one array or dtype is required
+2022-05-24/15:30:10		Error occurred while running prediction!! Error:: at least one array or dtype is required
+2022-05-24/15:30:43		Start of Prediction
+2022-05-24/15:30:43		Enter the get_data method of the Data_Getter class
+2022-05-24/15:30:43		Data loaded successfully. Exited the get_data method of the Data_Getter class
+2022-05-24/15:30:43		Entered the is_null_present method of the Preprocessor class
+2022-05-24/15:30:43		Finding missing values is a success. Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-05-24/15:30:43		Entered the scale_numerical_columns method of the Preprocessor class
+2022-05-24/15:30:43		Exception occured in scale_numerical_columns method of the Preprocessor class. Exited method at least one array or dtype is required
+2022-05-24/15:30:43		Error occurred while running prediction!! Error:: at least one array or dtype is required
+2022-05-24/15:31:12		Start of Prediction
+2022-05-24/15:31:12		Enter the get_data method of the Data_Getter class
+2022-05-24/15:31:12		Data loaded successfully. Exited the get_data method of the Data_Getter class
+2022-05-24/15:31:12		Entered the is_null_present method of the Preprocessor class
+2022-05-24/15:31:12		Finding missing values is a success. Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-05-24/15:31:12		Entered the scale_numerical_columns method of the Preprocessor class
+2022-05-24/15:31:12		Exception occured in scale_numerical_columns method of the Preprocessor class. Exited method at least one array or dtype is required
+2022-05-24/15:31:12		Error occurred while running prediction!! Error:: at least one array or dtype is required
+2022-05-24/15:32:29		Start of Prediction
+2022-05-24/15:32:29		Enter the get_data method of the Data_Getter class
+2022-05-24/15:32:29		Data loaded successfully. Exited the get_data method of the Data_Getter class
+2022-05-24/15:32:29		Entered the is_null_present method of the Preprocessor class
+2022-05-24/15:32:29		Finding missing values is a success. Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-05-24/15:32:29		Entered the scale_numerical_columns method of the Preprocessor class
+2022-05-24/15:32:29		Exception occured in scale_numerical_columns method of the Preprocessor class. Exited method at least one array or dtype is required
+2022-05-24/15:32:29		Error occurred while running prediction!! Error:: at least one array or dtype is required
+2022-05-24/15:33:31		Start of Prediction
+2022-05-24/15:33:31		Enter the get_data method of the Data_Getter class
+2022-05-24/15:33:31		Data loaded successfully. Exited the get_data method of the Data_Getter class
+2022-05-24/15:33:31		Entered the is_null_present method of the Preprocessor class
+2022-05-24/15:33:31		Finding missing values is a success. Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-05-24/15:33:31		Entered the scale_numerical_columns method of the Preprocessor class
+2022-05-24/15:33:31		Exception occured in scale_numerical_columns method of the Preprocessor class. Exited method at least one array or dtype is required
+2022-05-24/15:33:31		Error occurred while running prediction!! Error:: at least one array or dtype is required
+2022-05-24/15:44:43		Start of Prediction
+2022-05-24/15:44:43		Enter the get_data method of the Data_Getter class
+2022-05-24/15:44:43		Data loaded successfully. Exited the get_data method of the Data_Getter class
+2022-05-24/15:44:43		Entered the is_null_present method of the Preprocessor class
+2022-05-24/15:44:43		Finding missing values is a success. Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-05-24/15:44:43		Entered the scale_numerical_columns method of the Preprocessor class
+2022-05-24/15:44:43		Exception occured in scale_numerical_columns method of the Preprocessor class. Exited method at least one array or dtype is required
+2022-05-24/15:44:43		Error occurred while running prediction!! Error:: at least one array or dtype is required
+2022-05-24/15:45:46		Start of Prediction
+2022-05-24/15:45:46		Enter the get_data method of the Data_Getter class
+2022-05-24/15:45:46		Data loaded successfully. Exited the get_data method of the Data_Getter class
+2022-05-24/15:45:46		Entered the is_null_present method of the Preprocessor class
+2022-05-24/15:45:46		Finding missing values is a success. Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-05-24/15:45:46		Entered the scale_numerical_columns method of the Preprocessor class
+2022-05-24/15:45:46		Exception occured in scale_numerical_columns method of the Preprocessor class. Exited method at least one array or dtype is required
+2022-05-24/15:45:46		Error occurred while running prediction!! Error:: at least one array or dtype is required
+2022-05-24/15:46:27		Start of Prediction
+2022-05-24/15:46:27		Enter the get_data method of the Data_Getter class
+2022-05-24/15:46:27		Data loaded successfully. Exited the get_data method of the Data_Getter class
+2022-05-24/15:46:27		Entered the is_null_present method of the Preprocessor class
+2022-05-24/15:46:27		Finding missing values is a success. Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-05-24/15:46:27		Entered the scale_numerical_columns method of the Preprocessor class
+2022-05-24/15:46:27		Exception occured in scale_numerical_columns method of the Preprocessor class. Exited method at least one array or dtype is required
+2022-05-24/15:46:27		Error occurred while running prediction!! Error:: at least one array or dtype is required
+2022-06-10/06:40:39		Start of Prediction
+2022-06-10/06:40:39		Enter the get_data method of the Data_Getter class
+2022-06-10/06:40:39		Data loaded successfully. Exited the get_data method of the Data_Getter class
+2022-06-10/06:40:39		Entered the is_null_present method of the Preprocessor class
+2022-06-10/06:40:39		Finding missing values is a success. Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-06-10/06:40:39		Entered the scale_numerical_columns method of the Preprocessor class
+2022-06-10/06:40:39		Exception occured in scale_numerical_columns method of the Preprocessor class. Exited method at least one array or dtype is required
+2022-06-10/06:40:39		Error occurred while running prediction!! Error:: at least one array or dtype is required
+2022-06-10/06:42:39		Start of Prediction
+2022-06-10/06:42:39		Enter the get_data method of the Data_Getter class
+2022-06-10/06:42:39		Data loaded successfully. Exited the get_data method of the Data_Getter class
+2022-06-10/06:42:39		Entered the is_null_present method of the Preprocessor class
+2022-06-10/06:42:39		Finding missing values is a success. Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-06-10/06:42:39		Entered the scale_numerical_columns method of the Preprocessor class
+2022-06-10/06:42:39		Exception occured in scale_numerical_columns method of the Preprocessor class. Exited method at least one array or dtype is required
+2022-06-10/06:42:39		Error occurred while running prediction!! Error:: at least one array or dtype is required
+2022-06-10/06:58:05		Start of Prediction
+2022-06-10/06:58:05		Enter the get_data method of the Data_Getter class
+2022-06-10/06:58:05		Data loaded successfully. Exited the get_data method of the Data_Getter class
+2022-06-10/06:58:05		Entered the is_null_present method of the Preprocessor class
+2022-06-10/06:58:05		Finding missing values is a success. Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-06-10/06:58:05		Entered the scale_numerical_columns method of the Preprocessor class
+2022-06-10/06:58:05		Exception occured in scale_numerical_columns method of the Preprocessor class. Exited method at least one array or dtype is required
+2022-06-10/06:58:05		Error occurred while running prediction!! Error:: at least one array or dtype is required
+2022-06-10/07:13:11		Start of Prediction
+2022-06-10/07:13:11		Enter the get_data method of the Data_Getter class
+2022-06-10/07:13:11		Data loaded successfully. Exited the get_data method of the Data_Getter class
+2022-06-10/07:13:11		Entered the is_null_present method of the Preprocessor class
+2022-06-10/07:13:11		Finding missing values is a success. Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-06-10/07:13:11		Entered the scale_numerical_columns method of the Preprocessor class
+2022-06-10/07:13:11		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-06-10/07:13:11		Entered the load_model method of the File_Operation class
+2022-06-10/07:13:11		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2022-06-10/07:13:11		Entered the find_correct_model_file method of the File_Operation class
+2022-06-10/07:13:11		Exited the find_correct_model_file method of the Model_Finder class.
+2022-06-10/07:13:11		Entered the load_model method of the File_Operation class
+2022-06-10/07:13:11		Model File XGBoost1 loaded. Exited the load_model method of the Model_Finder class
+2022-06-10/07:13:11		Exception occured in load_model method of the Model_Finder class. Can't get attribute 'XGBoostLabelEncoder' on <module 'xgboost.compat' from 'C:\\Users\\sujan\\anaconda3\\envs\\predictCCdefaulters\\lib\\site-packages\\xgboost\\compat.py'>
+2022-06-10/07:13:11		Model File XGBoost1 could not be saved. Exited the load_model method of the Model_Finder class
+2022-06-10/07:13:11		Error occurred while running prediction!! Error:: Can't get attribute 'XGBoostLabelEncoder' on <module 'xgboost.compat' from 'C:\\Users\\sujan\\anaconda3\\envs\\predictCCdefaulters\\lib\\site-packages\\xgboost\\compat.py'>
+2022-06-10/07:23:46		Start of Prediction
+2022-06-10/07:23:46		Enter the get_data method of the Data_Getter class
+2022-06-10/07:23:46		Data loaded successfully. Exited the get_data method of the Data_Getter class
+2022-06-10/07:23:46		Entered the is_null_present method of the Preprocessor class
+2022-06-10/07:23:46		Finding missing values is a success. Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-06-10/07:23:46		Entered the scale_numerical_columns method of the Preprocessor class
+2022-06-10/07:23:46		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-06-10/07:23:46		Entered the load_model method of the File_Operation class
+2022-06-10/07:23:46		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2022-06-10/07:23:46		Entered the find_correct_model_file method of the File_Operation class
+2022-06-10/07:23:46		Exited the find_correct_model_file method of the Model_Finder class.
+2022-06-10/07:23:46		Entered the load_model method of the File_Operation class
+2022-06-10/07:23:46		Model File XGBoost1 loaded. Exited the load_model method of the Model_Finder class
+2022-06-10/07:23:46		Exception occured in load_model method of the Model_Finder class. Can't get attribute 'XGBoostLabelEncoder' on <module 'xgboost.compat' from 'C:\\Users\\sujan\\anaconda3\\envs\\predictCCdefaulters\\lib\\site-packages\\xgboost\\compat.py'>
+2022-06-10/07:23:46		Model File XGBoost1 could not be saved. Exited the load_model method of the Model_Finder class
+2022-06-10/07:23:46		Error occurred while running prediction!! Error:: Can't get attribute 'XGBoostLabelEncoder' on <module 'xgboost.compat' from 'C:\\Users\\sujan\\anaconda3\\envs\\predictCCdefaulters\\lib\\site-packages\\xgboost\\compat.py'>
+2022-06-10/07:50:00		Start of Prediction
+2022-06-10/07:50:00		Enter the get_data method of the Data_Getter class
+2022-06-10/07:50:00		Data loaded successfully. Exited the get_data method of the Data_Getter class
+2022-06-10/07:50:00		Entered the is_null_present method of the Preprocessor class
+2022-06-10/07:50:00		Finding missing values is a success. Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-06-10/07:50:00		Entered the scale_numerical_columns method of the Preprocessor class
+2022-06-10/07:50:00		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-06-10/07:50:00		Entered the load_model method of the File_Operation class
+2022-06-10/07:50:00		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2022-06-10/07:50:00		Entered the find_correct_model_file method of the File_Operation class
+2022-06-10/07:50:00		Exited the find_correct_model_file method of the Model_Finder class.
+2022-06-10/07:50:00		Entered the load_model method of the File_Operation class
+2022-06-10/07:50:00		Model File XGBoost1 loaded. Exited the load_model method of the Model_Finder class
+2022-06-10/07:50:00		End of Prediction
+2022-06-10/07:57:55		Start of Prediction
+2022-06-10/07:57:55		Enter the get_data method of the Data_Getter class
+2022-06-10/07:57:55		Data loaded successfully. Exited the get_data method of the Data_Getter class
+2022-06-10/07:57:55		Entered the is_null_present method of the Preprocessor class
+2022-06-10/07:57:55		Finding missing values is a success. Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-06-10/07:57:55		Entered the scale_numerical_columns method of the Preprocessor class
+2022-06-10/07:57:55		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-06-10/07:57:55		Entered the load_model method of the File_Operation class
+2022-06-10/07:57:55		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2022-06-10/07:57:55		Entered the find_correct_model_file method of the File_Operation class
+2022-06-10/07:57:55		Exited the find_correct_model_file method of the Model_Finder class.
+2022-06-10/07:57:55		Entered the load_model method of the File_Operation class
+2022-06-10/07:57:55		Model File XGBoost1 loaded. Exited the load_model method of the Model_Finder class
+2022-06-10/07:57:55		End of Prediction

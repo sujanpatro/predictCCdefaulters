@@ -98,7 +98,9 @@ class Preprocessor:
         self.data = data
 
         try:
+            # print(self.data)
             self.num_df = self.data.select_dtypes(include=['int64']).copy()
+            # print(self.num_df)
             self.scaler = StandardScaler()
             self.scaled_data = self.scaler.fit_transform(self.num_df)
             self.scaled_num_df = pd.DataFrame(data=self.scaled_data, columns=self.num_df.columns)

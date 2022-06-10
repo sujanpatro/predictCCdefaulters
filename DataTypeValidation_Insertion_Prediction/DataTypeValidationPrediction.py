@@ -72,7 +72,7 @@ class dBOperation:
             try:
                 with open(goodFilePath + '/' + file) as f:
                     next(f)
-                    reader = csv.reader(f, delimeter="\n")
+                    reader = csv.reader(f, delimiter="\n")
                     for line in enumerate(reader):
                         for list_ in line[1]:
                             try:
@@ -106,12 +106,13 @@ class dBOperation:
             cursor.execute(sqlSelect)
 
             results = cursor.fetchall()
+            # print("print results here:", results)
             headers = [i[0] for i in cursor.description]
 
             if not os.path.isdir(self.fileFromDb):
                 os.makedirs(self.fileFromDb)
 
-            csvFile = csv.writer(open(self.fileFromDb + self.fileName, 'w', newline=''), delimeter=',', lineterminator='\r\n', quoting=csv.QUOTE_ALL, escapechar='\\')
+            csvFile = csv.writer(open(self.fileFromDb + self.fileName, 'w', newline=''), delimiter=',', lineterminator='\r\n', quoting=csv.QUOTE_ALL, escapechar='\\')
             csvFile.writerow(headers)
             csvFile.writerows(results)
 

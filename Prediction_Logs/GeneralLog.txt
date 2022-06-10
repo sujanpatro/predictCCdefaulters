@@ -1,0 +1,77 @@
+2022-05-24/15:19:52		BadRaw directory deleted successfully
+2022-05-24/15:19:52		GoodRaw directory deleted successfully
+2022-05-24/15:20:55		BadRaw directory deleted successfully
+2022-05-24/15:20:55		GoodRaw directory deleted successfully
+2022-05-24/15:20:55		GoodRaw directory deleted successfully
+2022-05-24/15:20:55		Bad files moved to archive
+2022-05-24/15:20:55		BadRaw directory deleted successfully
+2022-05-24/15:21:58		GoodRaw directory deleted successfully
+2022-05-24/15:21:58		Bad files moved to archive
+2022-05-24/15:21:58		BadRaw directory deleted successfully
+2022-05-24/15:23:01		GoodRaw directory deleted successfully
+2022-05-24/15:23:01		Bad files moved to archive
+2022-05-24/15:23:01		BadRaw directory deleted successfully
+2022-05-24/15:24:04		GoodRaw directory deleted successfully
+2022-05-24/15:24:04		Bad files moved to archive
+2022-05-24/15:24:04		BadRaw directory deleted successfully
+2022-05-24/15:24:46		GoodRaw directory deleted successfully
+2022-05-24/15:24:46		Bad files moved to archive
+2022-05-24/15:24:46		BadRaw directory deleted successfully
+2022-05-24/15:29:04		GoodRaw directory deleted successfully
+2022-05-24/15:29:04		Bad files moved to archive
+2022-05-24/15:29:04		BadRaw directory deleted successfully
+2022-05-24/15:30:10		GoodRaw directory deleted successfully
+2022-05-24/15:30:10		Bad files moved to archive
+2022-05-24/15:30:10		BadRaw directory deleted successfully
+2022-05-24/15:30:43		GoodRaw directory deleted successfully
+2022-05-24/15:30:43		Bad files moved to archive
+2022-05-24/15:30:43		BadRaw directory deleted successfully
+2022-05-24/15:31:12		GoodRaw directory deleted successfully
+2022-05-24/15:31:12		Bad files moved to archive
+2022-05-24/15:31:12		BadRaw directory deleted successfully
+2022-05-24/15:32:29		GoodRaw directory deleted successfully
+2022-05-24/15:32:29		Bad files moved to archive
+2022-05-24/15:32:29		BadRaw directory deleted successfully
+2022-05-24/15:33:31		GoodRaw directory deleted successfully
+2022-05-24/15:33:31		Bad files moved to archive
+2022-05-24/15:33:31		BadRaw directory deleted successfully
+2022-05-24/15:44:43		GoodRaw directory deleted successfully
+2022-05-24/15:44:43		Bad files moved to archive
+2022-05-24/15:44:43		BadRaw directory deleted successfully
+2022-05-24/15:45:46		GoodRaw directory deleted successfully
+2022-05-24/15:45:46		Bad files moved to archive
+2022-05-24/15:45:46		BadRaw directory deleted successfully
+2022-05-24/15:46:27		GoodRaw directory deleted successfully
+2022-05-24/15:46:27		Bad files moved to archive
+2022-05-24/15:46:27		BadRaw directory deleted successfully
+2022-06-10/06:40:39		GoodRaw directory deleted successfully
+2022-06-10/06:40:39		Bad files moved to archive
+2022-06-10/06:40:39		BadRaw directory deleted successfully
+2022-06-10/06:42:39		GoodRaw directory deleted successfully
+2022-06-10/06:42:39		Bad files moved to archive
+2022-06-10/06:42:39		BadRaw directory deleted successfully
+2022-06-10/06:58:05		GoodRaw directory deleted successfully
+2022-06-10/06:58:05		Bad files moved to archive
+2022-06-10/06:58:05		BadRaw directory deleted successfully
+2022-06-10/07:09:27		BadRaw directory deleted successfully
+2022-06-10/07:09:27		GoodRaw directory deleted successfully
+2022-06-10/07:12:55		BadRaw directory deleted successfully
+2022-06-10/07:12:55		GoodRaw directory deleted successfully
+2022-06-10/07:13:11		GoodRaw directory deleted successfully
+2022-06-10/07:13:11		Bad files moved to archive
+2022-06-10/07:13:11		BadRaw directory deleted successfully
+2022-06-10/07:23:46		GoodRaw directory deleted successfully
+2022-06-10/07:23:46		Bad files moved to archive
+2022-06-10/07:23:46		BadRaw directory deleted successfully
+2022-06-10/07:24:34		GoodRaw directory deleted successfully
+2022-06-10/07:24:34		Bad files moved to archive
+2022-06-10/07:24:34		BadRaw directory deleted successfully
+2022-06-10/07:45:01		GoodRaw directory deleted successfully
+2022-06-10/07:45:01		Bad files moved to archive
+2022-06-10/07:45:01		BadRaw directory deleted successfully
+2022-06-10/07:50:00		GoodRaw directory deleted successfully
+2022-06-10/07:50:00		Bad files moved to archive
+2022-06-10/07:50:00		BadRaw directory deleted successfully
+2022-06-10/07:57:55		GoodRaw directory deleted successfully
+2022-06-10/07:57:55		Bad files moved to archive
+2022-06-10/07:57:55		BadRaw directory deleted successfully

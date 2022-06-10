@@ -4,7 +4,7 @@ from application_logging.logger import App_Logger
 
 
 class dataTransformPredict:
-    def __int__(self):
+    def __init__(self):
         self.goodDataPath = "Prediction_Raw_files_validated/Good_Raw"
         self.logger = App_Logger()
 

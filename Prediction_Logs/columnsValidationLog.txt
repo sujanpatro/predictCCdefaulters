@@ -1,0 +1,56 @@
+2022-05-24/15:19:52		Column length validation started
+2022-05-24/15:19:52		Column length validation completed
+2022-05-24/15:20:55		Column length validation started
+2022-05-24/15:20:55		Column length validation completed
+2022-05-24/15:21:58		Column length validation started
+2022-05-24/15:21:58		Column length validation completed
+2022-05-24/15:23:01		Column length validation started
+2022-05-24/15:23:01		Column length validation completed
+2022-05-24/15:24:04		Column length validation started
+2022-05-24/15:24:04		Column length validation completed
+2022-05-24/15:24:46		Column length validation started
+2022-05-24/15:24:46		Column length validation completed
+2022-05-24/15:29:04		Column length validation started
+2022-05-24/15:29:04		Column length validation completed
+2022-05-24/15:30:10		Column length validation started
+2022-05-24/15:30:10		Column length validation completed
+2022-05-24/15:30:43		Column length validation started
+2022-05-24/15:30:43		Column length validation completed
+2022-05-24/15:31:12		Column length validation started
+2022-05-24/15:31:12		Column length validation completed
+2022-05-24/15:32:28		Column length validation started
+2022-05-24/15:32:28		Column length validation completed
+2022-05-24/15:33:31		Column length validation started
+2022-05-24/15:33:31		Column length validation completed
+2022-05-24/15:44:43		Column length validation started
+2022-05-24/15:44:43		Column length validation completed
+2022-05-24/15:45:46		Column length validation started
+2022-05-24/15:45:46		Column length validation completed
+2022-05-24/15:46:26		Column length validation started
+2022-05-24/15:46:26		Column length validation completed
+2022-06-10/06:40:38		Column length validation started
+2022-06-10/06:40:38		Column length validation completed
+2022-06-10/06:42:39		Column length validation started
+2022-06-10/06:42:39		Column length validation completed
+2022-06-10/06:58:05		Column length validation started
+2022-06-10/06:58:05		Column length validation completed
+2022-06-10/07:08:49		Column length validation started
+2022-06-10/07:09:28		Column length validation started
+2022-06-10/07:12:56		Column length validation started
+2022-06-10/07:12:56		Invalid Columns Length for the file!! File moved to Bad Raw Folder :: creditCardFraud_28011963_120213.csv
+2022-06-10/07:12:56		Column length validation completed
+2022-06-10/07:23:34		Column length validation started
+2022-06-10/07:23:34		Invalid Columns Length for the file!! File moved to Bad Raw Folder :: creditCardFraud_28011963_120213.csv
+2022-06-10/07:23:34		Column length validation completed
+2022-06-10/07:24:23		Column length validation started
+2022-06-10/07:24:23		Invalid Columns Length for the file!! File moved to Bad Raw Folder :: creditCardFraud_28011963_120213.csv
+2022-06-10/07:24:23		Column length validation completed
+2022-06-10/07:44:49		Column length validation started
+2022-06-10/07:44:50		Invalid Columns Length for the file!! File moved to Bad Raw Folder :: creditCardFraud_28011963_120213.csv
+2022-06-10/07:44:50		Column length validation completed
+2022-06-10/07:49:44		Column length validation started
+2022-06-10/07:49:44		Invalid Columns Length for the file!! File moved to Bad Raw Folder :: creditCardFraud_28011963_120213.csv
+2022-06-10/07:49:44		Column length validation completed
+2022-06-10/07:57:44		Column length validation started
+2022-06-10/07:57:44		Invalid Columns Length for the file!! File moved to Bad Raw Folder :: creditCardFraud_28011963_120213.csv
+2022-06-10/07:57:44		Column length validation completed

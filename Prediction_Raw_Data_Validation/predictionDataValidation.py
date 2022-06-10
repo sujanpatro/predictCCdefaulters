@@ -48,6 +48,8 @@ class Prediction_Data_validation:
                 file.close()
             raise e
 
+        return LengthOfDateStampInFile, LengthOfTimeStampInFile, column_names, NumberofColumns
+
     def manualRegexCreation(self):
         # SampleFileName: creditCardFraud_021119920_010222.csv
         regex = "['credictCardFraud']+['\_'']+[\d_]+[\d]+\.csv"
@@ -175,7 +177,7 @@ class Prediction_Data_validation:
             for file in os.listdir("Prediction_Raw_files_validated/Good_Raw"):
                 df = pd.read_csv("Prediction_Raw_files_validated/Good_Raw/" + file)
                 if df.shape[1] != NumberOfColumns:
-                    shutil.move("Prediction_files_validated/Good_Raw/" + file, "Prediction_Raw_files_validated/Bad_Raw/")
+                    shutil.move("Prediction_Raw_files_validated/Good_Raw/" + file, "Prediction_Raw_files_validated/Bad_Raw/")
                     self.logger.log(f, "Invalid Columns Length for the file!! File moved to Bad Raw Folder :: %s" % file)
             self.logger.log(f, "Column length validation completed")
 

@@ -1,5 +1,5 @@
 from Training_Raw_data_validation.rawValidation import Raw_Data_validation
-from DataTransform_Training.DataTransformation import dataTransform
+from DataTransformation_Training.DataTransformation import dataTransformation
 from DataTypeValidation_Insertion_Training.DataTypeValidation import dBOperation
 from application_logging import logger
 import os
@@ -8,10 +8,10 @@ import os
 class train_validation:
     def __init__(self, path):
         self.raw_data = Raw_Data_validation(path)
-        self.dataTransform = dataTransform()
+        self.dataTransform = dataTransformation()
         self.dBOperation = dBOperation()
         self.cwd = os.getcwd()
-        self.file_object = open(self.cwd + 'Training_Main_Log.txt', 'a+')
+        self.file_object = open(self.cwd + '\\Training_Main_Log.txt', 'a+')
         self.log_writer = logger.App_Logger()
 
     def train_validation(self):

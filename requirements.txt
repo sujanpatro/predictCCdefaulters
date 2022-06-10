@@ -1,50 +1,62 @@
 APScheduler==3.6.3
 attrs==19.3.0
-certifi==2022.5.18.1
+certifi==2019.11.28
 charset-normalizer==2.0.12
-click==8.1.3
-colorama==0.4.4
-cycler @ file:///tmp/build/80754af9/cycler_1637851556182/work
+click @ file:///C:/ci/click_1646038601470/work
+colorama @ file:///tmp/build/80754af9/colorama_1607707115595/work
+colorhash==1.0.2
+configparser==4.0.2
+cycler==0.10.0
 docopt==0.6.2
-Flask==2.1.2
-Flask-Cors==3.0.10
+Flask==1.1.1
+Flask-Cors==3.0.8
+Flask-MonitoringDashboard==3.0.6
 fonttools==4.25.0
+gunicorn==20.0.4
 idna==3.3
-imbalanced-learn==0.9.0
+imbalanced-learn==0.6.1
 imblearn==0.0
-importlib-metadata==4.11.3
-itsdangerous==2.1.2
-Jinja2==3.1.2
-joblib @ file:///tmp/build/80754af9/joblib_1635411271373/work
-kiwisolver @ file:///C:/ci/kiwisolver_1644944417636/work
-kneed==0.7.0
-MarkupSafe==2.1.1
-matplotlib @ file:///C:/ci/matplotlib-suite_1647423638658/work
+importlib-metadata==1.4.0
+itsdangerous @ file:///tmp/build/80754af9/itsdangerous_1621432558163/work
+Jinja2 @ file:///opt/conda/conda-bld/jinja2_1647436528585/work
+joblib==0.14.1
+jsonschema==3.2.0
+kiwisolver==1.1.0
+kneed==0.5.1
+MarkupSafe @ file:///C:/ci/markupsafe_1621528383308/work
+matplotlib==3.1.2
 mkl-fft==1.3.1
 mkl-random @ file:///C:/ci/mkl_random_1626186163140/work
 mkl-service==2.4.0
+more-itertools==8.1.0
 munkres==1.1.4
-numpy==1.21.6
+numpy @ file:///C:/ci/numpy_and_numpy_base_1650959324056/work
 packaging @ file:///tmp/build/80754af9/packaging_1637314298585/work
-pandas==1.3.5
+pandas==0.25.3
 Pillow==9.0.1
 pipreqs==0.4.11
-pyparsing @ file:///tmp/build/80754af9/pyparsing_1635766073266/work
-python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
-pytz==2022.1
+psutil==5.6.7
+pyparsing==2.4.6
+pyrsistent==0.15.7
+python-dateutil==2.8.1
+pytz==2021.3
+PyYAML==5.3
+regexp==0.1
 requests==2.27.1
-scikit-learn @ file:///C:/ci/scikit-learn_1642599122269/work
-scipy @ file:///C:/ci/scipy_1641555141383/work
+scikit-learn==0.22.1
+scipy==1.4.1
 sip==4.19.13
-six @ file:///tmp/build/80754af9/six_1644875935023/work
+six==1.14.0
+sklearn==0.0
 sklearn-pandas==1.8.0
+SQLAlchemy==1.3.13
 threadpoolctl==3.1.0
 tornado @ file:///C:/ci/tornado_1606935947090/work
 typing_extensions==4.2.0
-tzlocal @ file:///C:/ci/tzlocal_1597435800236/work
+tzlocal==2.0.0
 urllib3==1.26.9
-Werkzeug==2.1.2
+Werkzeug==0.16.1
 wincertstore==0.2
+xgboost==1.6.1
 yarg==0.1.9
-zipp==3.8.0
-xgboost==1.5.0
+zipp==2.0.1

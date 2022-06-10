@@ -19,21 +19,38 @@ class prediction:
             data_getter = data_loader_prediction.Data_Getter_Pred(self.file_object, self.log_writer)
             data = data_getter.get_data()
 
+            # print('here is the data loaded:\n', data)
+
+            # print(3)
+
             preprocessor = preprocessing.Preprocessor(self.file_object, self.log_writer)
 
             is_null_present, cols_with_missing_values = preprocessor.is_null_present(data)
             if is_null_present:
+                # print(data)
                 data = preprocessor.impute_missing_values(data, cols_with_missing_values)
+                # print(data)
+
+            # print(4)
 
             X = preprocessor.scale_numerical_columns(data)
 
+            # print(6)
+
             file_loader = file_methods.File_Operation(self.file_object, self.log_writer)
+
+            # print(7)
+
             kmeans = file_loader.load_model('KMeans')
+
+            # print(5)
 
             clusters = kmeans.predict(X)
             X['clusters'] = clusters
             clusters = X['clusters'].unique()
             predictions = []
+
+            # print(4)
 
             for i in clusters:
                 cluster_data = X[X['clusters'] == i]
@@ -41,6 +58,8 @@ class prediction:
                 model_name = file_loader.find_correct_model_file(i)
                 model = file_loader.load_model(model_name)
                 result = model.predict(cluster_data)
+
+            # print(5)
 
             final = pd.DataFrame(list(zip(result)), columns=['Predictions'])
             path = "Prediction_Output_File/Predictions.csv"

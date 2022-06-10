@@ -40,7 +40,7 @@ class File_Operation:
                 return pickle.load(f)
         except Exception as e:
             self.logger_object.log(self.file_object,
-                                   'Exception occured in load_model method of the Model_Finder class. %s' % e)
+                                   'Exception occurred in load_model method of the Model_Finder class. %s' % e)
             self.logger_object.log(self.file_object,
                                    'Model File ' + filename + ' could not be saved. Exited the load_model method of the Model_Finder class')
             raise e
