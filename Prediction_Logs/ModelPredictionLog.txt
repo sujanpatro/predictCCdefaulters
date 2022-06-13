@@ -194,3 +194,31 @@
 2022-06-10/07:57:55		Entered the load_model method of the File_Operation class
 2022-06-10/07:57:55		Model File XGBoost1 loaded. Exited the load_model method of the Model_Finder class
 2022-06-10/07:57:55		End of Prediction
+2022-06-14/00:40:50		Start of Prediction
+2022-06-14/00:40:50		Enter the get_data method of the Data_Getter class
+2022-06-14/00:40:50		Data loaded successfully. Exited the get_data method of the Data_Getter class
+2022-06-14/00:40:50		Entered the is_null_present method of the Preprocessor class
+2022-06-14/00:40:50		Finding missing values is a success. Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-06-14/00:40:50		Entered the scale_numerical_columns method of the Preprocessor class
+2022-06-14/00:40:50		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-06-14/00:40:50		Entered the load_model method of the File_Operation class
+2022-06-14/00:40:50		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2022-06-14/00:40:51		Entered the find_correct_model_file method of the File_Operation class
+2022-06-14/00:40:51		Exited the find_correct_model_file method of the Model_Finder class.
+2022-06-14/00:40:51		Entered the load_model method of the File_Operation class
+2022-06-14/00:40:51		Model File XGBoost1 loaded. Exited the load_model method of the Model_Finder class
+2022-06-14/00:40:51		Error occurred while running prediction!! Error:: 'XGBModel' object has no attribute 'callbacks'
+2022-06-14/00:50:00		Start of Prediction
+2022-06-14/00:50:00		Enter the get_data method of the Data_Getter class
+2022-06-14/00:50:00		Data loaded successfully. Exited the get_data method of the Data_Getter class
+2022-06-14/00:50:00		Entered the is_null_present method of the Preprocessor class
+2022-06-14/00:50:00		Finding missing values is a success. Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-06-14/00:50:00		Entered the scale_numerical_columns method of the Preprocessor class
+2022-06-14/00:50:00		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-06-14/00:50:00		Entered the load_model method of the File_Operation class
+2022-06-14/00:50:00		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2022-06-14/00:50:00		Entered the find_correct_model_file method of the File_Operation class
+2022-06-14/00:50:00		Exited the find_correct_model_file method of the Model_Finder class.
+2022-06-14/00:50:00		Entered the load_model method of the File_Operation class
+2022-06-14/00:50:00		Model File XGBoost0 loaded. Exited the load_model method of the Model_Finder class
+2022-06-14/00:50:00		End of Prediction

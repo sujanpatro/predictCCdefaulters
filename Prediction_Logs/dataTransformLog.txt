@@ -10,3 +10,7 @@
 2022-06-10/07:49:45		creditCardFraud_28011962_120212.csv: File Transformed successfully
 2022-06-10/07:57:44		creditCardFraud_28011960_120210.csv: File Transformed successfully
 2022-06-10/07:57:44		creditCardFraud_28011962_120212.csv: File Transformed successfully
+2022-06-14/00:40:41		creditCardFraud_28011960_120210.csv: File Transformed successfully
+2022-06-14/00:40:41		creditCardFraud_28011962_120212.csv: File Transformed successfully
+2022-06-14/00:49:50		creditCardFraud_28011960_120210.csv: File Transformed successfully
+2022-06-14/00:49:50		creditCardFraud_28011962_120212.csv: File Transformed successfully

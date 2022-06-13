@@ -58,3 +58,6 @@
 2022-05-24/13:35:38		GoodRaw directory deleted successfully
 2022-05-24/13:35:38		Bad files moved to archive
 2022-05-24/13:35:38		BadRaw directory deleted successfully
+2022-06-14/00:45:52		GoodRaw directory deleted successfully
+2022-06-14/00:45:52		Bad files moved to archive
+2022-06-14/00:45:52		BadRaw directory deleted successfully
