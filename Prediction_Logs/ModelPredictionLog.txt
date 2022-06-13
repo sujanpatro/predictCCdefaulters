@@ -222,3 +222,17 @@
 2022-06-14/00:50:00		Entered the load_model method of the File_Operation class
 2022-06-14/00:50:00		Model File XGBoost0 loaded. Exited the load_model method of the Model_Finder class
 2022-06-14/00:50:00		End of Prediction
+2022-06-14/01:03:40		Start of Prediction
+2022-06-14/01:03:40		Enter the get_data method of the Data_Getter class
+2022-06-14/01:03:40		Data loaded successfully. Exited the get_data method of the Data_Getter class
+2022-06-14/01:03:40		Entered the is_null_present method of the Preprocessor class
+2022-06-14/01:03:40		Finding missing values is a success. Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-06-14/01:03:40		Entered the scale_numerical_columns method of the Preprocessor class
+2022-06-14/01:03:40		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-06-14/01:03:40		Entered the load_model method of the File_Operation class
+2022-06-14/01:03:40		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2022-06-14/01:03:40		Entered the find_correct_model_file method of the File_Operation class
+2022-06-14/01:03:40		Exited the find_correct_model_file method of the Model_Finder class.
+2022-06-14/01:03:40		Entered the load_model method of the File_Operation class
+2022-06-14/01:03:40		Model File XGBoost0 loaded. Exited the load_model method of the Model_Finder class
+2022-06-14/01:03:40		End of Prediction
